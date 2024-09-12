@@ -54,7 +54,7 @@ export const projects = [
     title: "Twitter Demonstration",
     des: "FullStack learning Api's, routes, controllers, backend, tanStack, CRUD application logic, mutation",
     img: "/meTwitterApplication.png",
-    iconLists: ["/MongoDB_Logomark_ForestGreen.svg", "/express-svgrepo-com.png", "/reactjs-logo.png" , "/nodejs-logo.png"],
+    iconLists: ["/MongoDB_Logomark_ForestGreen.svg", "/express-logo.png", "/reactjs-logo.png" , "/nodejs-logo.png"],
     link: "https://github.com/Ryoshi1001/MERN-FullStack-Twitter-Demonstration",
     githubLink: "https://github.com/Ryoshi1001/MERN-FullStack-Twitter-Demonstration",
   },
