@@ -16,17 +16,18 @@ export function Websites() {
           <span className="text-purple"> Projects</span>
         </h1>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-6 md:gap-16 w-full max-w-7xl mx-auto">
+      <div className="flex flex-wrap justify-center  w-full max-w-7xl mx-auto gap-8">
         {projects.map(
-          ({ id, title, des, img, iconLists, link, githubLink }) => {
+          ({ id, title, des, img, iconLists, link, githubLink, software }) => {
             return (
               <div
                 key={id}
-                className="lg:min-h-[32.5rem] h-[25rem] flex flex-wrap items-center justify-center sm:w-96 w-[80vw] mx-auto mb-10"
+                className="lg:min-h-[32.5rem] h-[27rem] flex flex-wrap items-center justify-center sm:w-96 w-[80vw] mx-auto"
               >
                 <PinContainer title={link}>
                   <a href={link} target="_blank">
-                    <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden  lg:h-[30vh] mb-10">
+                    <div className='text-purple text-xl text-center mb-1 -mt-1'>{software}</div>
+                    <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden  lg:h-[30vh]">
                       <div
                         className="relative w-full h-full  rounded-xl overflow-hidden lg:rounded-3xl"
                         style={{ backgroundColor: '#13162D' }}
@@ -44,7 +45,7 @@ export function Websites() {
                     </div>
 
                     <h1 className="text-base md:text-xl font-bold lg:text-2xl line-clamp-1"
-                                          style={{ color: '#BEC1DD', margin: '1vh 0' }}
+                      style={{ color: '#BEC1DD', margin: '1vh 0' }}
 
                     >
                       {title}
@@ -70,6 +71,7 @@ export function Websites() {
                             }}
                           >
                             <img src={icon} alt={icon} className="p-2" />
+
                           </div>
                         );
                       })}
@@ -93,3 +95,5 @@ export function Websites() {
     </div>
   );
 }
+
+

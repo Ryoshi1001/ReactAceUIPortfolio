@@ -1,6 +1,7 @@
 import { TbBrandHtml5, TbBrandJavascript, TbBrandCss3 } from "react-icons/tb";
 import { FaWordpress } from "react-icons/fa6";
-import { SiReact, SiFigma, SiTailwindcss } from "react-icons/si";
+import { SiReact, SiFigma, SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
+import { RiNodejsLine } from "react-icons/ri";
 import { BentoGrid, BentoGridItem } from '../components/ui/bento-grid';
 
 
@@ -77,9 +78,30 @@ export const items = [
   },
   {
     title: 'REACT(beginner)',
-    description: 'Functional components, basics of props, basics of Hooks.',
+    description: 'Functional components, folder structure, simple components',
     // header: <Skeleton />,
     icon: <SiReact className="h-4 w-4 text-purple" />,
     img: '/re.svg',
+  },
+  {
+    title: 'MongoDB(beginner)',
+    description: 'NoSQL DB, POST, DELETE, GET',
+    // header: <Skeleton />,
+    icon: <SiMongodb className="h-4 w-4 text-purple" />,
+    img: '/MongoDB_Logomark_ForestGreen.svg',
+  },
+  {
+    title: 'Express(beginner)',
+    description: 'Express Router',
+    // header: <Skeleton />,
+    icon: <SiExpress className="h-4 w-4 text-purple" />,
+    img: '/express-logo.png',
+  },
+  {
+    title: 'NodeJS(beginner)',
+    description: '',
+    // header: <Skeleton />,
+    icon: <RiNodejsLine  className="h-4 w-4 text-purple" />,
+    img: '/nodejs-logo.png',
   },
 ];
