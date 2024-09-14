@@ -79,7 +79,7 @@ export function Websites() {
                     <a href={githubLink} target="_blank">
                       <div className="flex items-center justify-center">
                         <p className="flex text-sm text-purple">
-                          {id === 1 || id === 2 || id === 5 ? 'Check Live Website' : 'GitHub Source Code'}
+                          {id === 1 || id === 2 || id === 6 || id === 3 ? 'Check Live Website' : 'GitHub Source Code'}
                         </p>
 
                         <FaLocationArrow className="ms-3" color="#cbacf9" />
