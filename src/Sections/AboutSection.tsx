@@ -58,7 +58,7 @@ export function AboutSection() {
                 Name
               </h2>
               <p className="my-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-                
+                Ajmal Karimi
               </p>
               <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Email
@@ -72,10 +72,12 @@ export function AboutSection() {
               <p className="my-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
                 <span className="block text-purple">Human Development AS Degree</span>
                 <span className="block my-1">
-                  FreeCodeCamp: <br/>
-                  Certified Responsive Design - HTML CSS <br/>
-                  Certified JavaScript Algorithms and Data Structures
-                  Certified Back End Development and API's
+                  FreeCodeCamp: <br />
+                  <span className='text-purple'>
+                  Certified Responsive Design - HTML CSS 
+                    Certified JavaScript Algorithms and Data Structures
+                    Certified Back End Development and API's
+                  </span>
                 </span>
 
               </p>
@@ -113,7 +115,7 @@ export function AboutSection() {
                 className="object-contain absolute top-80 lg:top-[24rem] lg:left-0"
               />
             </div>
-            
+
           </div>
         </WobbleCard>
       </div>
