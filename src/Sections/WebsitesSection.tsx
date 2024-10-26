@@ -11,10 +11,22 @@ export function Websites() {
       className="sm:px-10 px-5"
     >
       <div className="py-10">
-        <h1 className="heading">
+        <h1 className="heading pb-3">
           Custom
           <span className="text-purple"> Projects</span>
         </h1>
+        <div className='flex flex-col'>
+          <span className='text-purple '>WhatsApp Login Use 2 Browser windows 1 Guest to Test & Enjoy App:
+          </span>
+          <span className='text-[#BEC1DD]'>          User1: Email: jamishamashru@gmail.com Password: whatsapp1
+          </span>
+          <span className='text-purple '>          User2: Email: kishanspector@gmail.com Password: whatsapp2
+          </span>
+          <span className='text-[#BEC1DD]'>          OR Can use own G-mail: Email: Your Gmail.com Password: Your Password
+          </span>
+          <span className='text-purple'>Secure Email Login with Google FireBaseAuthentication*
+          </span>
+        </div>
       </div>
       <div className="flex flex-wrap justify-center  w-full max-w-7xl mx-auto gap-8">
         {projects.map(
@@ -37,10 +49,8 @@ export function Websites() {
                       <img
                         src={img}
                         alt="cover"
-                        className={`${id === 3 || id === 4 || id === 6 ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]' : 'object-cover  z-10 absolute bottom-0  rotate-2 rounded-lg w-[88%] h-[96%]'}
+                        className={`${id === 4 || id === 5 || id === 7 ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]' : 'object-cover  z-10 absolute bottom-0  rotate-2 rounded-lg w-[88%] h-[96%]'}
                        `}
-
-
                       />
                     </div>
 
@@ -79,7 +89,7 @@ export function Websites() {
                     <a href={githubLink} target="_blank">
                       <div className="flex items-center justify-center">
                         <p className="flex text-sm text-purple">
-                          {id === 1 || id === 2 || id === 6 || id === 3 ? 'Check Live Website' : 'GitHub Source Code'}
+                          {id === 2 || id === 3 || id === 7 || id === 4 ? 'Check Live Website' : 'GitHub Source Code'}
                         </p>
 
                         <FaLocationArrow className="ms-3" color="#cbacf9" />

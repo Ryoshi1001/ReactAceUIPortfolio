@@ -40,6 +40,16 @@ export const testimonials = [
 export const projects = [
   {
     id: 1,
+    software: "NextJS, SocketIO, FireBase++ ",
+    title: "WhatsAPP Chat Demonstration",
+    des: "Learned Express, NextJS, SocketIO, StateReducers, Models, UI, PostgreSQL, FireBase Authentication",
+    img: "/WhatsAppwebsite.png",
+    iconLists: ["/next.svg","public/socket-io-svgrepo-com.svg", "/express-logo.png", "/postgresql-svgrepo-com.svg", "/firebase-svgrepo-com.png",   ],
+    link: "https://whatsappfrontend-balu.onrender.com",
+    githubLink: "https://github.com/Ryoshi1001/Whatsapp-FullStack-Nextjs-Render/tree/main", 
+  },
+  {
+    id: 2,
     software: "WordPress & Elementor",
     title: "VCRC Brentwood Non-Profit WordPress",
     des: "VCRC of Brentwood California built with WordPress & Elementor. Web Admin & Content-Editor",
@@ -49,7 +59,7 @@ export const projects = [
     githubLink: "https://www.vcrcbrentwoodca.org/", 
   },
   {
-    id: 2,
+    id: 3,
     software: "MongoDb, Express, React, nodejs",
     title: "Twitter Demonstration",
     des: "FullStack learning Api's, routes, controllers, backend, tanStack, CRUD application logic, mutation",
@@ -59,7 +69,7 @@ export const projects = [
     githubLink: "https://github.com/Ryoshi1001/MERN-FullStack-Twitter-Demonstration",
   },
   {
-    id: 3,
+    id: 4,
     software: "WordPress & Elementor",
     title: "SinomLando Non-Profit",
     des: "Sinomlando of Kwa-Zulu Natal. Working with Director, rebuilt entire website, created content, and realigned vision.",
@@ -69,7 +79,7 @@ export const projects = [
     githubLink: "https://sinomlando.org.za/",
   },
   {
-    id: 4,
+    id: 5,
     software: "HTML Promotional Email",
     title: "HTML Promotional Email Custom",
     des: "All emails are custom hand-coded, unbranded, created all content, layouts, logos, and ideas except for images which, edited from unsplash.com",
@@ -79,7 +89,7 @@ export const projects = [
     githubLink: "https://github.com/Ryoshi1001/CryptoCurrency-Promotional-Email/blob/main/index.html",
   },
   {
-    id: 5,
+    id: 6,
     software: "HTML Newsletter Email",
     title: "HTML NewsLetter ",
     des: "All emails are custom unbranded, created all content, layouts, logos, and ideas except for images which I edited from unsplash.com",
@@ -89,7 +99,7 @@ export const projects = [
     githubLink: "https://github.com/Ryoshi1001/GoFinance-Newsletter-Email/blob/main/index.html",
   },
   {
-    id: 6,
+    id: 7,
     software: "WordPress & Elementor",
     title: "Roto-Rooter Clone WordPress",
     des: "Demo of a Popular Company Website Duplicate.",
@@ -98,7 +108,7 @@ export const projects = [
     link: "https://wpsamplework.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     software: "HTML Transactional Email",
     title: "Hand-Coded Transactional Email",
     des: "All emails are custom unbranded, created all content, layouts, logos, and ideas except for images which I edited from unsplash.com",
