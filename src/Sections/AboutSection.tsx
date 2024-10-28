@@ -52,7 +52,7 @@ export function AboutSection() {
           </p>
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900">
-          <div className="flex flex-col min-h-[800px] lg:min-h-[auto] lg:justify-between lg:flex-row gap-4">
+          <div className="flex flex-col min-h-[830px] lg:min-h-[auto] lg:justify-between lg:flex-row gap-4">
             <div className="text-wrap">
               <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Name
@@ -115,7 +115,6 @@ export function AboutSection() {
                 className="object-contain absolute top-80 lg:top-[24rem] lg:left-0"
               />
             </div>
-
           </div>
         </WobbleCard>
       </div>

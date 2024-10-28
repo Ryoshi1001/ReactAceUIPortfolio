@@ -16,15 +16,30 @@ export function Websites() {
           <span className="text-purple"> Projects</span>
         </h1>
         <div className='flex flex-col'>
-          <span className='text-purple '>WhatsApp Login Use 2 Browser windows 1 Guest to Test & Enjoy App:
+          <span className='text-purple '><strong>WhatsApp Login</strong>
+          </span>
+          <span className='text-purple '>Use 2 Chrome Browser windows if can (1 Guest) to Test & Enjoy App.
           </span>
           <span className='text-[#BEC1DD]'>          User1: Email: jamishamashru@gmail.com Password: whatsapp1
           </span>
           <span className='text-purple '>          User2: Email: kishanspector@gmail.com Password: whatsapp2
           </span>
-          <span className='text-[#BEC1DD]'>          OR Can use own G-mail: Email: Your Gmail.com Password: Your Password
+          <span className='text-[#BEC1DD]'>          OR Can use own G-mail: Email: Your Gmail.com Password: Your Password to create account select avatar from Library
           </span>
           <span className='text-purple'>Secure Email Login with Google FireBaseAuthentication*
+          </span>
+          <span className='text-purple'>Kindly respect use of emails and messages put. Intended Only for demonstration of app*
+          </span>
+        </div>
+        <div className='flex flex-col mt-4'>
+          <span className='text-purple '><strong>Twitter Login</strong>
+          </span>
+          <span className='text-[#BEC1DD]'>username: user1, user2, or can use user3</span>
+          <span className='text-purple '>Password: 12345678
+          </span>
+        </div>
+        <div className='flex flex-col mt-4'>
+          <span className='text-purple '>Hope you like them as much as I do. Click images for Live Websites please allow to load some hosted Free.   
           </span>
         </div>
       </div>
