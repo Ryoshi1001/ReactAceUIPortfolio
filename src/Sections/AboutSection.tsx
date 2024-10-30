@@ -57,25 +57,32 @@ export function AboutSection() {
               <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Name
               </h2>
-              <p className="my-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+              <p className="mb-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
                 Ajmal Karimi
               </p>
               <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Email
               </h2>
-              <p className="my-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+              <p className="mb-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
                 Ryoshi16421@Proton.Me
               </p>
               <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                 Education Courses{' '}
               </h2>
-              <p className="my-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-                <span className="block text-purple">Human Development AS Degree</span>
+              <p className="mb-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+                <span className="block text-purple">Human Development Degree</span>
                 <span className="block my-1">
-                  FreeCodeCamp: <br />
-                  <span className='text-purple'>
+                  <strong>FreeCodeCamp: </strong><br />
+                  <span className='text-purple inline-block'>
                   Certified Responsive Design - HTML CSS 
+                  </span>
+                  <span className='inline-block'>
+                 
                     Certified JavaScript Algorithms and Data Structures
+                  
+                  </span>
+                  <span className='text-purple inline-block'>
+                
                     Certified Back End Development and API's
                   </span>
                 </span>

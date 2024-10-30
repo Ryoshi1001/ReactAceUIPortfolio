@@ -61,12 +61,17 @@ export function Websites() {
                       >
                         <img src="/bg.png" alt="bgimg" />
                       </div>
+                      <div
+                       className={`${id === 5 || id === 6 || id === 8 ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[68%] h-fit' : 'object-cover z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]'}`}
+                      >
                       <img
                         src={img}
                         alt="cover"
-                        className={`${id === 4 || id === 5 || id === 7 ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]' : 'object-cover  z-10 absolute bottom-0  rotate-2 rounded-lg w-[88%] h-[96%]'}
-                       `}
-                      />
+                        className='w-full h-full'
+                        
+                      />                        
+                      </div>
+
                     </div>
 
                     <h1 className="text-base md:text-xl font-bold lg:text-2xl line-clamp-1"
