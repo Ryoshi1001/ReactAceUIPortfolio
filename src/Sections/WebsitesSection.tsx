@@ -77,7 +77,7 @@ export function Websites() {
                       </div>
                       <div
                         className={`${
-                          id === 6 || id === 8
+                          id === 7 || id === 9
                             ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[68%] h-fit'
                             : 'object-cover z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]'
                         }`}

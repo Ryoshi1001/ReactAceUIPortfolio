@@ -25,6 +25,7 @@ export function AboutSection() {
               keen interest in expanding my knowledge in all areas related to
               this field. I have a background in healthcare and my new career is
               now in the technology field.
+              {/* "I'm studying Analysis and Systems Development (a tech-focused degree program)"  */}
             </p>
           </div>
           <img

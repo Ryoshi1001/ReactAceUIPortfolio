@@ -53,6 +53,16 @@ export const projects = [
     link: "https://mern-crud-store.onrender.com",
     githubLink: "https://github.com/Ryoshi1001/Mern-CRUD-Store",
   },
+  {
+    id: 6,
+    software: "NextJS-15, SEO, LOGO, Content, UI Library",
+    title: "NextJS-Powered Local Business Website: Design & Strategy",
+    des: "Working With Owner - Designed, Developed, created Brand, Content, and assisted with Online Business Strategy.",
+    img: "/hybridbatterysolutionswebsite.png",
+    iconLists: ["/next.svg", "/reactjs-logo.png"],
+    link: "https://hybridbatterysolution.com",
+    githubLink: "https://github.com/Ryoshi1001/Mern-CRUD-Store",
+  },
   // {
   //   id: 5,
   //   software: "HTML Promotional Email",
@@ -64,7 +74,7 @@ export const projects = [
   //   githubLink: "https://github.com/Ryoshi1001/CryptoCurrency-Promotional-Email/blob/main/index.html",
   // },
   {
-    id: 6,
+    id: 7,
     software: "HTML Newsletter Email",
     title: "HTML NewsLetter ",
     des: "All emails are custom unbranded, created all content, layouts, logos, and ideas except for images which I edited from unsplash.com",
@@ -74,7 +84,7 @@ export const projects = [
     githubLink: "https://github.com/Ryoshi1001/GoFinance-Newsletter-Email/blob/main/index.html",
   },
   {
-    id: 7,
+    id: 8,
     software: "WordPress & Elementor",
     title: "Roto-Rooter Clone WordPress",
     des: "Demo of a Popular Company Website Duplicate.",
@@ -83,7 +93,7 @@ export const projects = [
     link: "https://wpsamplework.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     software: "HTML Transactional Email",
     title: "Hand-Coded Transactional Email",
     des: "All emails are custom unbranded, created all content, layouts, logos, and ideas except for images which I edited from unsplash.com",
