@@ -8,7 +8,7 @@ export const projects = [
     software: "NextJS, SocketIO, FireBase++ ",
     title: "WhatsAPP Chat Demonstration",
     des: "Learned Express, NextJS, SocketIO, StateReducers, Models, UI, PostgreSQL, FireBase Authentication",
-    img: "/WhatsAppWebsite.png",
+    img: "/WhatsApp.png",
     iconLists: ["/next.svg", "/socket-io-svgrepo-com.svg", "/express-logo.png", "/postgresql-svgrepo-com.svg", "/firebase-svgrepo-com.png",   ],
     link: "https://whatsappfrontend-balu.onrender.com",
     githubLink: "https://github.com/Ryoshi1001/Whatsapp-FullStack-Nextjs-Render/tree/main", 
