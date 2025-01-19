@@ -77,12 +77,12 @@ export function Websites() {
                       </div>
                       <div
                         className={`${
-                          id === 7 || id === 9
+                          id === 7
                             ? 'object-contain z-10 absolute bottom-0 rotate-2 rounded-lg w-[68%] h-fit'
                             : 'object-cover z-10 absolute bottom-0 rotate-2 rounded-lg w-[88%] h-[96%]'
                         }`}
                       >
-                        <img src={img} alt="cover" className="w-full h-full" />
+                        <img src={img} alt="cover" className="w-full h-full rounded-lg" />
                       </div>
                     </div>
 
@@ -107,12 +107,15 @@ export function Websites() {
                         return (
                           <div
                             key={index}
-                            className="flex items-center justify-center w-8 h-8 lg:w-10 lg:h-10 bg-black border border-white[0.3] rounded-full"
+                            className="flex items-center justify-center w-10 h-10 lg:w-12 lg:h-12 bg-black border border-white[0.3] rounded-full"
                             style={{
                               transform: `translateX(-${4 * index + 2}px)`,
                             }}
                           >
-                            <img src={icon} alt={icon} className="p-2" />
+                               {id === 3 && index === 5 
+                            ?  <img src={icon} alt={icon} className="p-1 bg-red-50 rounded-full" />
+                            :  <img src={icon} alt={icon} className="p-2" />}
+                           
                           </div>
                         );
                       })}

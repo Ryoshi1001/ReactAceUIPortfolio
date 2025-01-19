@@ -27,4 +27,10 @@ const testimonials = [
     name: "Nomagcwanini Gracia Nokwe",
     title: "Sinomlando",
   },
+  {
+    quote:
+      "`Adding`",
+    name: "Mohammad Rasti",
+    title: "Hybrid Battery Solutions",
+  },
 ];
