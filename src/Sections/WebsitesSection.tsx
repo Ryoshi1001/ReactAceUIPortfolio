@@ -11,6 +11,15 @@ export function Websites() {
           Custom
           <span className="text-purple"> Projects</span>
         </h1>
+                <div className="flex flex-col mb-4">
+          <span className="text-purple ">
+            <strong>Quick AI from "Greatstack"</strong>
+          </span>
+          <span className="text-[#BEC1DD]">
+            Securely log in with Clerk Authorization using Gmail, Facebook or Email.
+          </span>
+          <span className="text-purple ">Kindly Generate only 1 image and 1 background image removal for testing purposes if possible due to limits and credits for AI generation. </span>
+        </div>
         <div className="flex flex-col">
           <span className="text-purple ">
             <strong>WhatsApp Login</strong>
@@ -123,7 +132,7 @@ export function Websites() {
                     <a href={githubLink} target="_blank">
                       <div className="flex items-center justify-center">
                         <p className="flex text-sm text-purple">
-                          {id === 2 || id === 3 || id === 7 || id === 4
+                          {id === 1 || id === 3 || id === 8 || id === 6
                             ? 'Check Live Website'
                             : 'GitHub Source Code'}
                         </p>

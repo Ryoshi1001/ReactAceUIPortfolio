@@ -1,10 +1,20 @@
-export const words = `你好, Hello, مرحبًا, Hola, Halo - I am Ajmal Karimi a Web Administrator & Content-Editor.'
+export const words = `你好, Hello, مرحبًا, Hola, Halo - I am Ajmal Karimi a Front-End Web Developer & Content-Editor.'
 `;
 
 
 export const projects = [
   {
     id: 1,
+    software: "MongoDb, Express, React, Nodejs",
+    title: "'Quick AI' Saas Application",
+    des: "Learned React, Node, Express, PostgreSQL, Clerk Auth, Google Gemini & Cloudinary API's",
+    img: "/quickai.png",
+    iconLists: ["/postgresql-svgrepo-com.svg", "/express-logo.png", "/reactjs-logo.png" , "/AdobeStock_JS3D.png", "/nodejs-logo.png"],
+    link: "https://quickaistudio.vercel.app/",
+    githubLink: "https://quickaistudio.vercel.app/", 
+  },
+  {
+    id: 2,
     software: "NextJS, SocketIO, FireBase++ ",
     title: "WhatsAPP Chat Demonstration",
     des: "Learned Express, NextJS, SocketIO, StateReducers, Models, UI, PostgreSQL, FireBase Authentication",
@@ -14,7 +24,7 @@ export const projects = [
     githubLink: "https://github.com/Ryoshi1001/Whatsapp-FullStack-Nextjs-Render/tree/main", 
   },
   {
-    id: 2,
+    id: 3,
     software: "WordPress & Elementor",
     title: "VCRC Brentwood Non-Profit WordPress",
     des: "VCRC of Brentwood California built with WordPress & Elementor. Web Admin & Content-Editor",
@@ -24,7 +34,7 @@ export const projects = [
     githubLink: "https://www.vcrcbrentwoodca.org/", 
   },
   {
-    id: 3,
+    id: 4,
     software: "Django, Python, PostgreSQL, AWS S3 ",
     title: "Django Blog",
     des: "User, Post Models learned, File Upload, Login, Logout, Signup, Password Reset Gmail++",
@@ -33,16 +43,16 @@ export const projects = [
     link: "https://django-blog-c6px.onrender.com/",
     githubLink: "https://github.com/Ryoshi1001/Python-Django-Blog-App/tree/main",
   },
-  {
-    id: 4,
-    software: "WordPress & Elementor",
-    title: "SinomLando Non-Profit",
-    des: "Sinomlando of Kwa-Zulu Natal. Working with Director, rebuilt entire website, created content, and realigned vision.",
-    img: "/SinomlandoWebsite.png",
-    iconLists: ["/WordPressLogo.png", "/AdobeStock_HTML3D.png", "/AdobeStock_CSS3D.png", "/Elementor-Logo-Symbol-Pink.svg", "/AdobeStock_JS3D.png"],
-    link: "https://sinomlando.org.za/",
-    githubLink: "https://sinomlando.org.za/",
-  },
+  // {
+  //   id: 5,
+  //   software: "WordPress & Elementor",
+  //   title: "SinomLando Non-Profit",
+  //   des: "Sinomlando of Kwa-Zulu Natal. Working with Director, rebuilt entire website, created content, and realigned vision.",
+  //   img: "/SinomlandoWebsite.png",
+  //   iconLists: ["/WordPressLogo.png", "/AdobeStock_HTML3D.png", "/AdobeStock_CSS3D.png", "/Elementor-Logo-Symbol-Pink.svg", "/AdobeStock_JS3D.png"],
+  //   link: "https://sinomlando.org.za/",
+  //   githubLink: "https://sinomlando.org.za/",
+  // },
   {
     id: 5,
     software: "MongoDb, Express, React, Nodejs",
@@ -57,31 +67,21 @@ export const projects = [
     id: 6,
     software: "NextJS-15, SEO, LOGO, Content, UI Library",
     title: "NextJS-Powered Local Business Website: Design & Strategy",
-    des: "Working With Owner - Designed, Developed, created Brand, Content, and assisted with Online Business Strategy.",
+    des: "Working with Owner - Designed, Developed, Branded, Boosted SEO to #1 Domain Authority.",
     img: "/hybridbatterysolutionswebsite.png",
     iconLists: ["/next.svg", "/reactjs-logo.png"],
     link: "https://hybridbatterysolution.com",
-    githubLink: "https://github.com/Ryoshi1001/Mern-CRUD-Store",
+    githubLink: "https://hybridbatterysolution.com",
   },
-  // {
-  //   id: 5,
-  //   software: "HTML Promotional Email",
-  //   title: "HTML Promotional Email Custom",
-  //   des: "All emails are custom hand-coded, unbranded, created all content, layouts, logos, and ideas except for images which, edited from unsplash.com",
-  //   img: "/BitcoinsDog.png",
-  //   iconLists: ["/AdobeStock_HTML3D.png", "/AdobeStock_CSS3D.png"],
-  //   link: "https://ryoshi1001.github.io/CryptoCurrency-Promotional-Email/",
-  //   githubLink: "https://github.com/Ryoshi1001/CryptoCurrency-Promotional-Email/blob/main/index.html",
-  // },
   {
     id: 7,
     software: "HTML5 & CSS3",
     title: "HTML NewsLetter ",
-    des: "All emails are custom unbranded, created all content, layouts, logos, and ideas except for images which I edited from unsplash.com",
+    des: "All Emails are Custom Unbranded, Created All Content, Layouts, Logos, and Ideas Except for Images Which I Edited From Unsplash.Com",
     img: "/email-preview (3).png",
     iconLists: ["/AdobeStock_HTML3D.png", "/AdobeStock_CSS3D.png"],
-    link: "https://ryoshi1001.github.io/GoFinance-Newsletter-Email/",
-    githubLink: "https://github.com/Ryoshi1001/GoFinance-Newsletter-Email/blob/main/index.html",
+    link: "https://github.com/Ryoshi1001/GoFinance-Newsletter-Email/tree/main",
+    githubLink: "https://github.com/Ryoshi1001/GoFinance-Newsletter-Email/tree/main",
   },
   {
     id: 8,
@@ -91,12 +91,13 @@ export const projects = [
     img: "/RotoWebsite.png",
     iconLists: ["/WordPressLogo.png", "/AdobeStock_HTML3D.png", "/AdobeStock_CSS3D.png", "/Elementor-Logo-Symbol-Pink.svg"],
     link: "https://wpsamplework.netlify.app/",
+    githubLink: "https://wpsamplework.netlify.app/",
   },
   {
     id: 9,
     software: "MongoDb, Express, React, Nodejs",
     title: "Twitter Demonstration",
-    des: "FullStack learning Api's, routes, controllers, backend, tanStack, CRUD application logic, mutation",
+    des: "FullStack Learning Api's, Routes, Controllers, Backend, TanStack, CRUD Application Logic, Mutation",
     img: "/meTwitterApplication.png",
     iconLists: ["/MongoDB_Logomark_ForestGreen.svg", "/express-logo.png", "/reactjs-logo.png" , "/nodejs-logo.png"],
     link: "https://mern-fullstack-twitter-demonstration.onrender.com",

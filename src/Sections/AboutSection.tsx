@@ -38,7 +38,7 @@ export function AboutSection() {
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 min-h-[300px]">
           <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            I am a Web Admin & Content Editor - Email Developer.
+            I am a Web Master, Content Editor & Front-End Developer.
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
             Can be kind of you to visit my website. Studied nursing in school
@@ -72,6 +72,7 @@ export function AboutSection() {
               </h2>
               <p className="mb-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
                 <span className="block text-purple">Human Development Degree</span>
+                <span className="block">Computer Science AS Degree</span>
                 <span className="block my-1">
                   <strong>FreeCodeCamp: </strong><br />
                   <span className='text-purple inline-block'>
@@ -93,11 +94,7 @@ export function AboutSection() {
                 Learning
               </h2>
               <span className="block text-white">
-                Communications & Networking (OSI Model)
-              </span>
-              <span className="block my-1 text-purple">
-                {' '}
-                AS Computer Science Jan 2025
+                Full-Stack Development (React, Nextjs, Javascript, Node, Express, Postgres, Mongodb, Clerk, Vercel, Render, Tailwind-4, MySQL...)
               </span>
             </div>
             <div className='relative flex flex-col lg:-my-14 lg:w-1/2 '>

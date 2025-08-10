@@ -40,18 +40,3 @@ const HeroSection = () => {
 export default HeroSection
 
 
-
-
-
-// causing performance issues.
-// Lazy Loading:
-// If the Vortex or TextGenerateEffect components are large, consider lazy loading them:
-// jsx
-// import { lazy, Suspense } from 'react';
-// const Vortex = lazy(() => import('../components/ui/vortex'));
-// // ... in your JSX:
-// <Suspense fallback={<div>Loading...</div>}>
-//   <Vortex {...props} />
-// </Suspense>
-
-
