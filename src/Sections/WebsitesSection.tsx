@@ -16,36 +16,32 @@ export function Websites() {
             <strong>Quick AI from "Greatstack"</strong>
           </span>
           <span className="text-[#BEC1DD]">
-            Securely log in with Clerk Authorization using Gmail, Facebook or Email.
+            Securely log in with Clerk Authorization using your Gmail, Facebook or Email.
           </span>
           <span className="text-purple ">Kindly Generate only 1 image and 1 background image removal for testing purposes if possible due to limits and credits for AI generation. </span>
         </div>
         <div className="flex flex-col">
           <span className="text-purple ">
-            <strong>WhatsApp Login</strong>
+            <strong>IntelliChat App Login</strong>
           </span>
           <span className="text-purple ">
-            Use 2 Chrome Browser windows if can (1 Guest) to Test & Enjoy App.
+            Use 2 Chrome Browsers windows if can (1 Guest or Incognito) to Test & Enjoy App.
           </span>
           <span className="text-[#BEC1DD]">
             {' '}
-            User1: Email: jamishamashru@gmail.com Password: whatsapp1
+            Login1: Email: chatuser1@email.com Password: chatuser1
           </span>
           <span className="text-purple ">
             {' '}
-            User2: Email: kishanspector@gmail.com Password: whatsapp2
+            Login2: Email: chatuser2@email.com Password: chatuser2
           </span>
           <span className="text-[#BEC1DD]">
             {' '}
-            OR Can use own G-mail: Email: Your Gmail.com Password: Your Password
-            to create account select avatar from Library
+            OR Signup using any email or password. 
           </span>
           <span className="text-purple">
-            Secure Email Login with Google FireBaseAuthentication*
-          </span>
-          <span className="text-purple">
-            Kindly respect use of emails and messages put. Intended Only for
-            demonstration of app*
+            Kindly respect use of app and messages entered. Intended Only for
+            testing and demonstration of app*
           </span>
         </div>
         <div className="flex flex-col mt-4">
@@ -60,7 +56,7 @@ export function Websites() {
         <div className="flex flex-col mt-4">
           <span className="text-purple ">
             Hope you like them as much as I do. Click images for Live Websites
-            please allow to load some hosted Free.
+            please allow to load some hosted Free on Render and Vercel.
           </span>
         </div>
       </div>
@@ -132,7 +128,7 @@ export function Websites() {
                     <a href={githubLink} target="_blank">
                       <div className="flex items-center justify-center">
                         <p className="flex text-sm text-purple">
-                          {id === 1 || id === 3 || id === 8 || id === 6
+                          {id === 1 || id === 2 || id === 3 || id === 8 || id === 6
                             ? 'Check Live Website'
                             : 'GitHub Source Code'}
                         </p>
