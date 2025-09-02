@@ -16,8 +16,8 @@ export const projects = [
   {
     id: 2,
     software: "React, SocketIO, MongoDB, JWT",
-    title: "IntelliChat Chat App",
-    des: "Learned Express, NextJS, SocketIO, ContextAPI, Models, UI, MongoDB, JWT Authentication",
+    title: "IntelliChat w/ AI Chat Assist",
+    des: "Learned Express, SocketIO, ContextAPI, Models, UI, MongoDB, JWT Authentication, AI Integration",
     img: "/chatapp.png",
     iconLists: ["/reactjs-logo.png", "/socket-io-svgrepo-com.svg", "/express-logo.png", "/MongoDB_Logomark_ForestGreen.svg", "/AdobeStock_JS3D.png", "/nodejs-logo.png"],
     link: "https://intellichat-frontend-d8rz.onrender.com",
